@@ -1,0 +1,390 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: filter 0.3s ease-in-out;
+}
+
+button:hover{
+  filter: brightness(0.7);
+}
+
+input{
+  outline: none;
+}
+
+div{
+  font-family: sans-serif;
+}
+
+.main{
+  border: 1px solid black;
+  box-shadow: 15px;
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  background-image: url('res/IN-en-20230619-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+  background-size: 125% auto;
+  background-position: center -270px;
+}
+
+.main_sub{
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.main_sub img{
+  position: absolute;
+  height: 80px;
+  top: 10px;
+  left:140px;
+}
+
+.main_sub span{
+  position: absolute;
+  left: 15px;
+  top: 5px;
+}
+
+.language_select{
+  width: 130px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.main_sub select{
+  background-color: rgba(0,0,0,0.9);
+  color: rgb(246, 246, 246);
+  font-weight: bold;
+  font-family: sans-serif;
+  position: absolute;
+  left: 1050px;
+  top: 30px;
+}
+
+.material-symbols-outlined{
+  color: white;
+  font-weight: bold;
+  filter: brightness(0) invert(1);
+  opacity: 0.7;
+  position: absolute;
+  margin-top: 28px;
+  margin-left: 1050px;
+  z-index: 4;
+}
+
+#down{
+  position: absolute;
+  margin-top: 28px;
+  margin-left: 1145px;
+  z-index: 1;
+}
+
+.signin{
+  position: absolute;
+  background-color: red;
+  border-radius: 5px;
+  height: 30px;
+  width: 70px;
+  z-index: 4;
+  top: 30px;
+  left: 1210px;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.unlimitedmovies{
+  position: absolute;
+  top: 30vh;
+  left: 50vh;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  height: fit-content;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.unlimitedmovies h1{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.unlimitedmovies h3{
+  line-height: 0px;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.unlimitedmovies h4{
+  font-weight: lighter;
+  line-height: 0px;
+}
+
+.email input{
+  width: 350px;
+  height: 50px;
+  background-color: rgba(0,0,0,0);
+  color: rgb(57, 57, 57);;
+  font-size: 18px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.email button{
+  background-image: url('res/arrowside.svg');
+  background-repeat: no-repeat;
+  background-position: 115px;
+  background-color: #E50914;
+  height: 56px;
+  width: 150px;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+
+.email{
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 60vh;
+  left: 70vh;
+}
+
+body{
+  background-color: rgb(96, 95, 95);
+}
+
+.second{
+  position: relative;
+  margin-top: 10px;
+  height: 70vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+
+.secondtxt{
+  position: absolute;
+  top: 120px;
+  color: white;
+  font-family: sans-serif;
+  left: 130px;
+  font-weight: bolder;
+}
+
+.second img{
+  position: absolute;
+  top: 50px;
+  right: 270px;
+  height: 400px;
+  width: 500px;
+  z-index: 4;
+}
+
+.second video{
+  height: 400px;
+  width: 500px;
+  position: absolute;
+  top: 50px;
+  right: 270px;
+  z-index: 3;
+}
+
+.thirdtxt{
+  position: absolute;
+  top: 120px;
+  color: white;
+  font-family: sans-serif;
+  right: 200px;
+  font-weight: bolder;
+}
+
+.secondimg{
+  position: absolute;
+  top: 50px;
+  left: 130px;
+  height: 400px;
+  width: 500px;
+  z-index: 4;
+}
+
+/* .smalldiv{
+  background-color: black;
+  height: 50px;
+  width: 200px;
+} */
+
+.smalldiv {
+  background-color: black;
+  border: 2px rgb(96, 95, 95)double;
+  border-radius: 10px;
+  padding: 10px;
+  width: 270px;
+  position: relative ;
+  top: 330px;
+  left: 235px;
+  z-index: 5;
+  height:70px;
+}
+
+.smalldiv img{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+.stranger h5{
+  color: #0071EB;
+  position: absolute;
+  top: 20px;
+  font-weight: lighter;
+}
+
+.stranger{
+  position: absolute;
+  top:0px;
+  left: 70px;
+  color: white;
+  font-weight: 100;
+}
+
+#smallimg{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+#secondvid{
+  height: 310px;
+  width: 330px;
+  position: absolute;
+  top: 20px;
+  right: 360px;
+  z-index: 3;
+}
+
+.thirddiv{
+  position: relative;
+  margin-top: 10px;
+  height: 120vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.thirddiv h1{
+  color: white;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.thirddiv h3{
+  color: white;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.questions{
+  cursor: pointer;
+  text-align: left;
+  height: 80px;
+  width: 78%;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  text-decoration: solid;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+  background-color: rgb(96, 95, 95);
+  background-image: url('res/addicon.svg');
+  background-position: 1070px;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.fourthdiv{
+  padding-left: 150px;
+  position: relative;
+  margin-top: 10px;
+  height: 60vh;
+  width: 1316px;
+  background-color: black;
+  display: flex;
+  color: rgb(193, 191, 191);
+  font-family: sans-serif;
+  flex-direction: column;
+}
+
+.fourthdiv h3{
+  position: absolute;
+  top: 10px;
+  left: 150px;
+}
+
+.fourthdivcontents{
+  font-size: small;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 30px;
+  justify-content: space-between;
+}
+
+.fourthdiv a{
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  line-height: 40px;
+}
+
+.fourthdivcontents ul{
+  list-style: none;
+}
+
+.lastdiv{
+  display: flex;
+  position: absolute;
+  left: -220px;
+  width: fit-content;
+  justify-content: flex-start;
+}
+
+.lastdiv a{
+  position: relative;
+}
+
+#lastemail{
+  position: absolute;
+  top: 102vh;
+  left: 61vh;
+}
+
+ul{
+  color: rgb(187, 181, 181);
+  font-weight: 500;
+}
